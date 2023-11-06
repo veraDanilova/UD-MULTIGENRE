@@ -10,4 +10,4 @@ The additional software tools are provided as-is (without any warranty) and are 
 
 The license for every treebank included in the release is specified in the appropriate treebank directory.
 
-Full details are available on: https://lindat.mff.cuni.cz/repository/xmlui/page/license-ud-2.11
+The complete license text and list of treebanks are available at: https://lindat.mff.cuni.cz/repository/xmlui/page/license-ud-2.11
