@@ -31,7 +31,7 @@ The repository contains the following data:
         },
 ...
 ```
-**nopattern** value of prefix pattern is used mostly for single-genre treebanks where the whole treebank is assigned to a specific genre.
+**nopattern** value of prefix pattern is used for single-genre treebanks where the whole treebank is assigned to a specific genre.
 
 
 ## Genre selection criteria
