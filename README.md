@@ -8,13 +8,13 @@ It is a reorganization of 63 treebanks from UD version 2.11 [Universal Dependenc
 The dataset enables new research as well as re-evaluation and a deeper understanding of prior research on genre-based data selection for cross-lingual dependency parsing. In addition, it is highly relevant for the research direction that investigates cross-lingual genre representation and classification.
 
 The repository contains the following data: 
-- **train:dev** Here, under each genre-specific directory, you'll find a list of treebank folders with the corresponding training and development .conllu files, as well as the corresponding .txt files.
-- **test** In each genre-specific directory, you'll find a list of treebank folders with test data in .conllu and .txt.
-- **genre_prefix_map.json** This file stores the detailes on the identified sources for each prefix pattern. It has the following levels:
-     * **Level1** Genre
-     * **Level2** Language
-     * **Level3** Treebank
-     * **Level4** Prefix patterns accompanied with descriptions and source where possible
+- **train:dev** Under each genre-specific directory, you'll find a list of treebank folders with the corresponding training and development .conllu and .txt files
+- **test** In each genre-specific directory, you'll find a list of treebank folders with test data in .conllu and .txt formats
+- **genre_prefix_map.json** This file stores the details on the identified sources for each prefix pattern. It has the following levels:
+     * **Level-1:** Genre
+     * **Level-2:** Language
+     * **Level-3:** Treebank name
+     * **Level-4:** Prefix patterns accompanied with descriptions and source where possible:
 ```
 {
     "QA": {
@@ -29,7 +29,11 @@ The repository contains the following data:
                 "sent_id = answers": "Question-answers are posts from Yahoo!s community-driven question-answering web site, Yahoo! Answers, where individuals submit and answer questions which may be on any topic. This data was collected in 2011 (source)[https://catalog.ldc.upenn.edu/LDC2012T13]"
             }
         },
+...
 ```
+**nopattern** value of prefix pattern is used mostly for single-genre treebanks where the whole treebank is assigned to a specific genre.
+
+
 ## Genre selection criteria
 
 | Genre            | In UD        | Criteria                                                                                                      |
